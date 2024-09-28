@@ -28,9 +28,10 @@ public class GETAPIRequestTestWithBDD {
 					          .statusCode(200)//It is hard asseration if got 404 then prohram will termonate here
 					              .header("Connection","keep-alive")
 					                    .body("$.size()",equalTo(20));
-		//  .body("id",is(notEqualTonull()));
-		//  .body("title",hasItem("Mens cotton Jacket"));
-					
+		/*
+		 * // .body("id",is(notEqualTonull())); //
+		 * .body("title",hasItem("Mens cotton Jacket"));
+		 */					
 		
 	}
 	

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GETAPIs.GETAPIWithPathParm">
+      <class name="SpecificationConcept.ResponseSpecBuilderTest">
         <methods>
-          <include name="GetProductAPI_WithExtract_JSONPATH_DataProvider" invocation-numbers="0 1 2"/>
+          <include name="get_res_Spec_200_OK_Test"/>
         </methods>
-      </class> <!-- GETAPIs.GETAPIWithPathParm -->
+      </class> <!-- SpecificationConcept.ResponseSpecBuilderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -22,7 +22,7 @@ import io.restassured.response.Response;
         "season": "2016",
         "Circuits": [
             {
-                "circuitId": "albert_park",
+                "circuitId": "alb.ert_park",
                 "url": "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit",
                 "circuitName": "Albert Park Grand Prix Circuit",
                 "Location": {
