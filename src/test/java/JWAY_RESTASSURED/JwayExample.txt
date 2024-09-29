@@ -18,8 +18,6 @@ $[?(@. category=='jewelery')].[title,price]
 $[?(@. rating.rate>4.5)].title
 $[?(@. price<30)].id
 $[?(@. category=='jewelery' && @. rating.rate>=2 && @. rating.rate<=4)].[title,category]
-and &&
-or ||
 
 
 [
