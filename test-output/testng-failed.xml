@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SpecificationConcept.ResponseSpecBuilderTest">
+      <class name="POSTAPIs.CreateUserWithPojoTest">
         <methods>
-          <include name="get_res_Spec_200_OK_Test"/>
+          <include name="AddUserTest"/>
         </methods>
-      </class> <!-- SpecificationConcept.ResponseSpecBuilderTest -->
+      </class> <!-- POSTAPIs.CreateUserWithPojoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

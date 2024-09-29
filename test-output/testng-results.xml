@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T12:27:54 IST" name="Default suite" finished-at="2024-09-28T12:27:56 IST" duration-ms="2068">
+  <suite started-at="2024-09-29T07:23:13 IST" name="Default suite" finished-at="2024-09-29T07:23:17 IST" duration-ms="4002">
     <groups>
     </groups>
-    <test started-at="2024-09-28T12:27:54 IST" name="Default test" finished-at="2024-09-28T12:27:56 IST" duration-ms="2068">
-      <class name="SpecificationConcept.Request_Reponse_Specification">
-        <test-method signature="getUser_With_Request_Spec1()[pri:0, instance:SpecificationConcept.Request_Reponse_Specification@6574a52c]" started-at="2024-09-28T12:27:54 IST" name="getUser_With_Request_Spec1" finished-at="2024-09-28T12:27:56 IST" duration-ms="2036" status="PASS">
+    <test started-at="2024-09-29T07:23:13 IST" name="Default test" finished-at="2024-09-29T07:23:17 IST" duration-ms="4002">
+      <class name="POSTAPIs.CreateUserWithPojoTest">
+        <test-method signature="AddUserTest()[pri:0, instance:POSTAPIs.CreateUserWithPojoTest@45099dd3]" started-at="2024-09-29T07:23:13 IST" name="AddUserTest" finished-at="2024-09-29T07:23:17 IST" duration-ms="3974" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser_With_Request_Spec1 -->
-      </class> <!-- SpecificationConcept.Request_Reponse_Specification -->
+        </test-method> <!-- AddUserTest -->
+      </class> <!-- POSTAPIs.CreateUserWithPojoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
