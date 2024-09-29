@@ -3,16 +3,23 @@ package POSTAPIs;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+import java.util.UUID;
+
 import org.testng.annotations.Test;
 
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
+
+//Direct supply the json string
+//pass the json file
+//pojo java obeject  to json with help of jackson/rest assured
 public class CreateUserWithPojoTest {
 	public static String getRandtomEmailId()
 	{
 		return "Apiautomatio"+System.currentTimeMillis()+"@mail.com";
+		//return "Apiautomatio"+UUID.randomUUID()+"@mail.com";
 	}
 
 	@Test
